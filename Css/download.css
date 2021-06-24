@@ -1,0 +1,141 @@
+    .description {
+        float: left;
+        width: auto;
+        margin: 0;
+        text-align: justify;
+        font: 18px 'century gothic';
+        color: #1f5f4f;
+    }
+    
+    .break {
+        clear: both;
+    }
+    
+    .bg {
+        background: url() no-repeat center;
+        -webkit-background-size: cover;
+    }
+    
+    .ppt {
+        background: url(../bg-img/ppt.png) no-repeat center;
+        -webkit-background-size: cover;
+    }
+    
+    .word {
+        background: url(../bg-img/word.png) no-repeat center;
+        -webkit-background-size: cover;
+    }
+    
+    .picture {
+        background: url(../bg-img/c3.jpg) no-repeat center;
+        -webkit-background-size: cover;
+    }
+    /* WRAPPER */
+    /* CONTENT */
+    
+    .content {
+        width: 100%;
+        position: fixed;
+        margin: 100 0 0 300px;
+    }
+    
+    .content .info {
+        padding: 10px;
+    }
+    /* banners */
+    
+    .download-banner {
+        list-style: none;
+        width: 100%;
+    }
+    
+    .download-banner li {
+        background: none;
+        display: inline;
+        margin-right: 10%;
+        float: left;
+        -webkit-perspective: 500;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transition-property: perspective;
+        -webkit-transition-duration: 0.5s;
+    }
+    
+    .download-banner li:hover {
+        -webkit-perspective: 5000;
+    }
+    
+    .download-banner li .bg {
+        width: 150px;
+        height: 200px;
+        border: 2px solid #fcfafa;
+        -webkit-transform: rotateY(30deg);
+        -moz-box-shadow: 0 3px 10px #888;
+        -webkit-box-shadow: 0 3px 10px #888;
+        -webkit-transition-property: transform;
+        -webkit-transition-duration: 0.5s;
+    }
+    
+    .download-banner li:hover .bg {
+        -webkit-transform: rotateY(0deg);
+    }
+    
+    .info {
+        border: 2px solid #fcfafa;
+        padding: 20px;
+        width: 100px;
+        height: 80px;
+        background-color: #ded;
+        margin: -150px 0 0 55px;
+        position: absolute;
+        -moz-box-shadow: 0 20px 40px #888;
+        -webkit-box-shadow: 0 20px 40px #888;
+        -webkit-transform: translateZ(30px) rotateY(30deg);
+        -webkit-transition-property: transform, box-shadow, margin;
+        -webkit-transition-duration: 0.5s;
+    }
+    
+    .breaker {
+        background: #000;
+        color: #fff;
+        text-align: center;
+        width: auto;
+        height: 1px;
+        clear: both;
+        margin: 0
+    }
+    
+    .download-banner li:hover .info {
+        -webkit-transform: rotateY(0deg);
+        -webkit-box-shadow: 0 5px 10px #888;
+        margin: -175px 0 0 15px;
+    }
+    
+    .info h3 {
+        color: #7a3f3a;
+        font: 18px 'century gothic';
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    
+    .info p {
+        padding-bottom: 0px;
+    }
+    
+    .info a {
+        background-color: #7a3f3a;
+        padding: 5px 10px;
+        color: #eee;
+        text-decoration: none;
+        display: block;
+        width: 80px;
+        text-align: center;
+        margin: 0 auto;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    
+    .info a:hover,
+    .info a:focus {
+        background-color: #6a191f;
+        color: #fff;
+    }

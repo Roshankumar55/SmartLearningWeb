@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    outline: none;
+}
+
+body {
+    background: url('../bg-img/2.jpg') #245 no-repeat top center fixed;
+    -webkit-background-size: cover;
+    margin: 0;
+}
+
+body:focus .slide-up {
+    visibility: hidden;
+}
+
+a:focus .slide-down {
+    visibility: hidden;
+}
+
+.slide-up {
+    background: url('../bg-img/12.jpg') rgba(53, 107, 153, 1) no-repeat center fixed;
+    -webkit-background-size: cover;
+    height: 55%;
+    float: left;
+    position: fixed;
+    width: 30%;
+    -webkit- transition: height 1s;
+    overflow: hidden;
+    margin: 0 0 0 0;
+}
+
+.slide-up:focus {
+    height: 6%;
+    -webkit-transition: height 2s;
+    overflow: visible;
+}
+
+.box-1 {
+    text-transform: uppercase;
+    color: #fff;
+    font: 30px "Century Gothic";
+    margin: 155 0 0 0;
+    - webkit-transition: margin 3s;
+}
+
+.slide-up:focus .box-1 {
+    margin: 0;
+    -webkit-transition: margin 2s;
+}
+
+.slide-up:hover {
+    cursor: pointer;
+}
+
+.t-1 {
+    float: left;
+    text-align: center;
+    width: 50%;
+    margin: 10 0 10 0;
+}
+
+.t-2 {
+    float: left;
+    text-align: center;
+    width: 49%;
+    margin: 10 0 10 0;
+}
+
+.t-1-img {
+    height: 90px;
+    border-radius: 6px;
+}
+
+.t-2-img {
+    height: 90px;
+    border-radius: 6px;
+}
+
+.k-k {
+    width: 150;
+    margin: 0;
+}
+
+.name {
+    text-transform: uppercase;
+    color: #000000;
+    font: 22px "Tw Cen MT Condensed";
+}
+
+.roll {
+    text-transform: capitalize;
+    color: #000000;
+    font: 14px "Century Gothic";
+    font-style: bold;
+}
+
+.social ul {
+    list-style: none;
+    display: inline;
+    margin: 0 0 10 15;
+    float: left;
+}
+
+li {
+    display: inline-block;
+    margin: 0 0 0 5;
+    background: #;
+}
+
+li .t-icon {
+    height: 20;
+}
+
+li .t-icon:hover {
+    -webkit-transform: translateY(-0.1em);
+    cursor: pointer;
+}
+
+.mail-img {
+    height: 14;
+}
+
+.mail span {
+    font: 18px "Tw Cen MT Condensed";
+    margin: 0 0 0 5;
+}
+
+.social span {
+    font: 14px "Century Gothic";
+    margin: 0 0 10 0;
+    border-bottom: #FFFFFF solid 1px;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    margin: 0 0 10 90;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ddd;
+}
+
+
+/* header start */
+
+.header {
+    background: #;
+    height: 13%;
+}
+
+.head-left {
+    float: left;
+    padding: ;
+    height: 100%;
+    margin: 10 0 0 40;
+    font: 3.0em 'Tw Cen MT Condensed';
+    -webkit-transform: all 50ms ease-in-out;
+}
+
+.head-right {
+    /* float: right; */
+    height: 100%;
+    margin: 0 45 0 0;
+}
+
+.head-right a {
+    color: #000;
+    text-decoration: none;
+}
+
+.head-right div {
+    font: 600 16px 'century gothic';
+    float: left;
+    margin: 20px 5px 5px 5px;
+    background: ;
+    border: #000 solid 1px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.head-right div:hover {
+    background: #fff;
+    border: #06f solid 1px;
+    -webkit- transition: background 250ms;
+    color: #06f;
+}
+
+.logout {
+    background: url(../icon/25706.png) no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.logout:hover {
+    background: url(../icon/25706.png) no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.head-right .about {
+    background: #fff;
+    -webkit-box-shadow: #fff 0px 2px 5px;
+    border: #06f solid 1px;
+    color: #06f;
+}
+
+
+/* social icon */
+
+.header img {
+    width: 40px;
+    text-shadow: 10px 10px 5px #000;
+    border-radius: 2;
+    opacity: 0.8;
+}
+
+
+/* header end */
+
+
+/* container start */
+
+.container {
+    background: #;
+    display: block;
+    overflow: auto;
+    height: 80%;
+    width: 100%;
+}
+
+.about-box {
+    height: 25%;
+    width: 91.3%;
+    background: url('../bg-img/12.jpg') rgba(255, 255, 255, 0.3) no-repeat center fixed;
+    -webkit-background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 10 4.5%;
+    padding: 8 0 0 0;
+    text-decoration: none;
+    z-index: 30;
+    font: 16px "Century Gothic";
+}
+
+.about-box h1 {
+    font: 600 35px '';
+    margin: 15px 0 0 0;
+}
+
+.about-box p {
+    font: 20px '';
+}
+
+.about-boxes {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 0 0;
+    position: ;
+    background: url('') no-repeat no-repeat center fixed;
+    -webkit-background-size: cover;
+}
+
+.about-box-left {
+    float: left;
+    height: auto;
+    width: 30%;
+    background: #;
+    margin: 0 10 0 4.5%;
+    position: ;
+}
+
+.about-box-mid {
+    float: left;
+    height: auto;
+    width: 30%;
+    background: #;
+    margin: 0 10 0 0;
+}
+
+.about-box-right {
+    float: left;
+    height: auto;
+    width: 30%;
+    background: #;
+    position: relative;
+}
+
+h2 {
+    margin: 10 0 0 0;
+    border-bottom: #FFFFFF solid 2px;
+}
+
+p {
+    width: 80%;
+    margin: 5 0 5 10%;
+}
+
+
+/* menus */
+
+
+/* menus end */
+
+
+/* container end */
+
+
+/* footer start */
+
+.footer {
+    background: #;
+    height: 5%;
+}
+
+.foot-left {
+    float: left;
+    margin: 0 0 0 50;
+    font: 20px 'Tw Cen MT Condensed';
+}
+
+.n {
+    color: #065;
+}
+
+.foot-right {
+    float: right;
+    color: #068;
+    margin: 0 50 0 10;
+    font: 20px 'Tw Cen MT Condensed';
+}
+
+
+/* footer end */
